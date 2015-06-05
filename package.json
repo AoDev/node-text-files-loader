@@ -21,6 +21,7 @@
   "dependencies": {
     "async": "^1.2.0",
     "extend-object": "^1.0.0",
-    "filewalker": "^0.1.2"
+    "filewalker": "^0.1.2",
+    "fs-traverse": "0.0.1"
   }
 }
