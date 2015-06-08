@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha $(find lib -name \"*.spec.js\")"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AoDev/node-text-files-loader"
+  },
   "keywords": [
     "text",
     "files",
