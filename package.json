@@ -10,6 +10,7 @@
     "text",
     "files",
     "loader",
+    "index",
     "object"
   ],
   "author": "Kevin Purnelle <kevin.purnelle@gmail.com> (http://kevinpurnelle.com/)",
@@ -17,5 +18,11 @@
   "devDependencies": {
     "chai": "^3.0.0",
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "async": "^1.2.0",
+    "extend-object": "^1.0.0",
+    "filewalker": "^0.1.2",
+    "fs-traverse": "0.0.1"
   }
 }
