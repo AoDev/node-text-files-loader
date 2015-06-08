@@ -4,7 +4,7 @@
   "description": "Load text files content from a directory, indexed into an object",
   "main": "index.js",
   "scripts": {
-    "test": "mocha $(find lib -name \"*.spec.js\")"
+    "test": "mocha --recursive lib"
   },
   "repository": {
     "type": "git",
