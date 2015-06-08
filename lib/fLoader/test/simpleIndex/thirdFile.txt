@@ -1,3 +1,1 @@
-third
-file
-content
+third file content
