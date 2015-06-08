@@ -115,7 +115,9 @@ Result:
 ```
 {
   'file1': 'content of the file',
-  'deeper/file2': 'content of the file'
+  'deeper': {
+    'file2': 'content of the file'
+  }
 }
 ```
 
