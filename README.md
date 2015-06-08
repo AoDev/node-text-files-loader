@@ -2,9 +2,18 @@ Text Files Loader
 =================
 
 Load text files content from a directory, indexed into an object.
-
 Note: currently it uses utf8. This can change if requested.
 
+* It can search a given directory and subdirectories if needed.
+* Filtering: add a filter to index files which name match a pattern.
+* You have different options described below to format the result.
+
+**Use case**
+
+I built this module because we write SQL queries in separated files.
+We wanted a way to load them in memory and access to them easily.
+
+Something like `db.query(queries.item.findById, ...)`
 
 Usage
 -------
