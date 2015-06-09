@@ -1,6 +1,6 @@
 {
   "name": "text-files-loader",
-  "version": "0.0.1",
+  "version": "1.0.5",
   "description": "Load text files content from a directory, indexed into an object",
   "main": "index.js",
   "scripts": {
